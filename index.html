@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>kamchybek</title>
+  </head>
+  <body>
+    <div class="slider">
+      <img id="mainImg"
+        src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg"
+        alt=""
+      />
+      <button class="prev" onclick="prev()">prev</button>
+      <button onclick="next()">next</button>
+    </div>
+
+    <div class="images">
+      <img class="img" onclick="imgClick(0)" src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg" alt="">
+      <img class="img"  onclick="imgClick(1)"  src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=1.00xw:0.753xh;0,0.153xh&resize=1200:*" alt="">
+      <img class="img"  onclick="imgClick(2)"  src="https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg" alt="">
+      <img class="img"  onclick="imgClick(3)"  src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
